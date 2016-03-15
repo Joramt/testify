@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    $(function () {
+        $('#click1').click(function (e) {
+
+            var jsonObject = {
+                "Name" : "Rami",
+                "Roles": [{ "RoleName": "Admin", "Description" : "Admin Role"}, { "RoleName": "User", "Description" : "User Role"}]
+            };
+
+            $.ajax({
+                url: "@Url.Action("AddUser")",
+                type: "POST",
+                data: JSON.stringify(jsonObject),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                error: function (response) {
+                    alert(response.responseText);
+            },
+                success: function (response) {
+                    alert(response);
+                }
+            });
+
+        });
+    });
+</script>
+
+<input type="button" value="click1" id="click1" />
