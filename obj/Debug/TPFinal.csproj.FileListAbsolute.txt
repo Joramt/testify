@@ -84,3 +84,6 @@ C:\Dev\final\testify\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Dev\final\testify\obj\Debug\TPFinal.csprojResolveAssemblyReference.cache
 C:\Dev\final\testify\obj\Debug\TPFinal.dll
 C:\Dev\final\testify\obj\Debug\TPFinal.pdb
+C:\Dev\final\testify\obj\Debug\TPFinal.Migrations.InitialCreate.resources
+C:\Dev\final\testify\obj\Debug\TPFinal.csproj.GenerateResource.Cache
+C:\Dev\final\testify\obj\Debug\TPFinal.Migrations.test.resources
