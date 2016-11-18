@@ -1,0 +1,1247 @@
+# French translations for PROJECT.
+# Copyright (C) 2010 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-11-16 15:19-0500\n"
+"PO-Revision-Date: 2016-11-16 15:19-0500\n"
+"Last-Translator: Bruno Robitaille <br@outboxtechnology.com>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.0\n"
+
+#: templates/cds/cancellation_cds.html:11
+#: templates/cds/pre/cancellation_cds.html:11
+#, python-format
+msgid "Your Confirmation of Cancellation - %(order_number)s"
+msgstr "Votre confirmation d'annulation - %(order_number)s"
+
+#: templates/cds/cancellation_cds.html:21 templates/cds/reservation_cds.html:21
+#: templates/cds/pre/cancellation_cds.html:21
+#: templates/cds/pre/reservation_cds.html:21
+#, fuzzy
+msgid "Order reservation"
+msgstr "Information"
+
+#: templates/cds/cancellation_cds.html:26 templates/cds/order_cds.html:23
+#: templates/cds/payment_reminder_cds.html:29
+#: templates/cds/reservation_cds.html:26
+#: templates/cds/pre/cancellation_cds.html:26
+#: templates/cds/pre/order_cds.html:23
+#: templates/cds/pre/payment_reminder_cds.html:29
+#: templates/cds/pre/reservation_cds.html:26
+#, python-format
+msgid "ORDER # : %(orderNumber)s ID # : %(customerId)s"
+msgstr "Numéro de Commande : %(orderNumber)s Numéro de Client : %(customerId)s"
+
+#: templates/cds/cancellation_cds.html:33
+#: templates/cds/pre/cancellation_cds.html:33
+#, python-format
+msgid ""
+"Hi [1:%(firstName)s],\n"
+"\n"
+"\n"
+"            [2:]\n"
+"            [3:This email confirm that your reservation has been "
+"canceled.][4:]\n"
+"            [5:]\n"
+"            [6:Please check the details below.]\n"
+"            [7:]\n"
+"            [8:More information can be obtained via [9:email] or call at "
+"%(contactPhone)s]"
+msgstr ""
+"Bonjour [1:%(firstName)s],\n"
+"\n"
+"\n"
+"            [2:]\n"
+"            [3:Vous recevez ce courriel afin de confirmer que votre "
+"réservation a été annulée.][4:]\n"
+"            [5:]\n"
+"            [6:Veuillez vérifier les détails de l'annulation ci-dessus.]\n"
+"            [7:]\n"
+"            [8: Pour plus d'information, veuillez [9:nous joindre via "
+"courriel] ou appelez nous au %(contactPhone)s]"
+
+#: templates/cds/cancellation_cds.html:49 templates/cds/order_cds.html:97
+#: templates/cds/pre/cancellation_cds.html:49
+#: templates/cds/pre/order_cds.html:97
+msgid "Your Order / Billing Information"
+msgstr "Votre commande / Information de facturation"
+
+#: templates/cds/cancellation_cds.html:58 templates/cds/order_cds.html:110
+#: templates/cds/reservation_cds.html:53
+#: templates/cds/pre/cancellation_cds.html:58
+#: templates/cds/pre/order_cds.html:110
+#: templates/cds/pre/reservation_cds.html:53
+#, fuzzy, python-format
+msgid "Order # : %(orderNumber)s"
+msgstr "Votre confirmation d'achat - %(order_number)s"
+
+#: templates/cds/cancellation_cds.html:59 templates/cds/order_cds.html:111
+#: templates/cds/reservation_cds.html:54
+#: templates/cds/pre/cancellation_cds.html:59
+#: templates/cds/pre/order_cds.html:111
+#: templates/cds/pre/reservation_cds.html:54
+#, python-format
+msgid "Order Date : %(dateCreated)s"
+msgstr "Date de la commande : %(dateCreated)s"
+
+#: templates/cds/cancellation_cds.html:60 templates/cds/order_cds.html:108
+#: templates/cds/reservation_cds.html:51
+#: templates/cds/pre/cancellation_cds.html:60
+#: templates/cds/pre/order_cds.html:108
+#: templates/cds/pre/reservation_cds.html:51
+#, python-format
+msgid "Customer Id : %(customerId)s"
+msgstr "Numéro de client : %(customerId)s"
+
+#: templates/cds/cancellation_cds.html:61 templates/cds/order_cds.html:107
+#: templates/cds/reservation_cds.html:50
+#: templates/cds/pre/cancellation_cds.html:61
+#: templates/cds/pre/order_cds.html:107
+#: templates/cds/pre/reservation_cds.html:50
+#, python-format
+msgid "Customer Name : %(customerName)s"
+msgstr "Nom du client : %(customerName)s"
+
+#: templates/cds/cancellation_cds.html:62
+#: templates/cds/pre/cancellation_cds.html:62
+#, python-format
+msgid "Refund total : %(totalRefund)s"
+msgstr "Remboursement total : %(totalRefund)s"
+
+#: templates/cds/cancellation_cds.html:64
+#: templates/cds/pre/cancellation_cds.html:64
+#, python-format
+msgid "%(taxcode)s : %(taxtotal)s"
+msgstr "%(taxcode)s : %(taxtotal)s"
+
+#: templates/cds/cancellation_cds.html:73
+#: templates/cds/pre/cancellation_cds.html:73
+#, fuzzy
+msgid "Refund information"
+msgstr "Information"
+
+#: templates/cds/cancellation_cds.html:81
+#: templates/cds/pre/cancellation_cds.html:81
+msgid ""
+"[1:The money spent will be refunded to the credit card you used when you "
+"bought the ticket. [2:] Please check your next bank statements for any "
+"further details]"
+msgstr ""
+"[1:Le montant déboursé sera remboursé sur la carte de crédit utilisée à "
+"l'achat du billet. [2:] Vérifiez votre relevé banquaire pour plus de "
+"détails.]"
+
+#: templates/cds/cancellation_cds.html:90
+#: templates/cds/cancellation_cds.html:94
+#: templates/cds/pre/cancellation_cds.html:90
+#: templates/cds/pre/cancellation_cds.html:94
+#, fuzzy, python-format
+msgid "Amount :  %(paymentAmount)s"
+msgstr "Montant du Paiement: %(paymentAmount)s"
+
+#: templates/cds/cancellation_cds.html:91
+#: templates/cds/cancellation_cds.html:95
+#: templates/cds/pre/cancellation_cds.html:91
+#: templates/cds/pre/cancellation_cds.html:95
+#, fuzzy, python-format
+msgid "Method: %(paymentMethod)s"
+msgstr "Méthode de paiement: %(paymentMethod)s"
+
+#: templates/cds/cancellation_cds.html:96
+#: templates/cds/pre/cancellation_cds.html:96
+#, fuzzy, python-format
+msgid "Card Holder : %(paymentHolder)s"
+msgstr "Méthode de paiement: %(paymentMethod)s"
+
+#: templates/cds/cancellation_cds.html:97
+#: templates/cds/pre/cancellation_cds.html:97
+#, python-format
+msgid "Card Number : %(paymentCard)s"
+msgstr "Numéro de Carte : %(paymentCard)s"
+
+#: templates/cds/directions_cds.html:9 templates/cds/pre/directions_cds.html:9
+#, python-format
+msgid "Direction to your event - %(order_number)s"
+msgstr "Directions pour - %(order_number)s"
+
+#: templates/cds/directions_cds.html:18
+#: templates/cds/pre/directions_cds.html:18
+msgid "DIRECTIONS"
+msgstr "DIRECTIONS"
+
+#: templates/cds/directions_cds.html:25
+#: templates/cds/pre/directions_cds.html:25
+#, fuzzy, python-format
+msgid "Hi [1:%(customerInfo)s],"
+msgstr "Bonjour [1:%(firstName)s],"
+
+#: templates/cds/directions_cds.html:30
+#: templates/cds/pre/directions_cds.html:30
+#, fuzzy, python-format
+msgid "You will soon be seeing [1:%(name)s]"
+msgstr "Vous allez bientôt voir [1:%(event_name)s]."
+
+#: templates/cds/directions_cds.html:33
+#: templates/cds/pre/directions_cds.html:33
+msgid ""
+"If you have opted for the convenince of receiving e-tickets, they were "
+"sent to you as an attachement in a previous e-mail"
+msgstr ""
+"Si vous avez opté pour la commodité de recevoir des billets "
+"électroniques, ils ont été envoyés à vous en tant que pièce jointe dans "
+"un courriel précédent"
+
+#: templates/cds/directions_cds.html:36
+#: templates/cds/pre/directions_cds.html:36
+msgid "Thank you and enjoy the show !"
+msgstr "Merci et profitez du spectacle!"
+
+#: templates/cds/directions_cds.html:47
+#: templates/cds/pre/directions_cds.html:47
+msgid "How to get there"
+msgstr "Comment s'y rendre"
+
+#: templates/cds/directions_cds.html:50
+#: templates/cds/pre/directions_cds.html:50
+msgid "Find directions to the"
+msgstr "Trouver la direction pour"
+
+#: templates/cds/directions_cds.html:50
+#: templates/cds/pre/directions_cds.html:50
+#, fuzzy
+msgid "Cirque du Soleil"
+msgstr "© Cirque du Soleil Inc. 2016"
+
+#: templates/cds/directions_cds.html:50
+#: templates/cds/pre/directions_cds.html:50
+#, fuzzy
+msgid "Grand Chapiteau and information about the site on our"
+msgstr ""
+"Trouver les indications pour le [1:Cirque du Soleil] Grand Chapiteau et "
+"des informations sur l'emplacement sur notre [2:site web]"
+
+#: templates/cds/directions_cds.html:50
+#: templates/cds/pre/directions_cds.html:50
+msgid "website"
+msgstr "site web"
+
+#: templates/cds/directions_cds.html:63
+#: templates/cds/pre/directions_cds.html:63
+#, fuzzy
+msgid "Informations"
+msgstr "Information"
+
+#: templates/cds/directions_cds.html:68
+#: templates/cds/pre/directions_cds.html:68
+#, fuzzy, python-format
+msgid ""
+"Please be aware that when you attend [1:%(name)s] [2:you must present a "
+"printed copy of your e-tickets and not the e-mail they came in.] To be "
+"sure that you have printed the proper document, simply look for a bar "
+"code. If you do not see a bar code, you have printed the e-mail and not "
+"the e-ticket."
+msgstr ""
+"S'il vous plaît soyez conscient que lorsque vous assistez "
+"%(eventDetailsName)s, [1:Vous devez présenter une copie imprimée de vos "
+"billets électroniques et non le courriel auquel ils étaient joints] Pour "
+"être sûr que vous avez imprimé le document proprement dit, if faut tout "
+"simplement chercher un code à barres. Si vous ne voyez pas un code à "
+"barres, vous avez imprimé le courriel et non le billet électronique."
+
+#: templates/cds/directions_cds.html:69
+#: templates/cds/pre/directions_cds.html:69
+#, python-format
+msgid ""
+"[1:If you did not receive your e-tickets] or if you deleted the email to "
+"which they were attached, please call customer service at "
+"%(contactPhone)s Monday to Friday, between 9:00 a.m. and 5:00 p.m. "
+"Eastern Time. Please note that you will need your order number : "
+"[2:%(orderNumber)s]. Additional charges may be required"
+msgstr ""
+"[1: Si vous ne recevez pas vos billets électronique] ou si vous avez "
+"supprimé le courriel auquel ils étaient attachés, s'il vous plaît appelez"
+" le service à la clientèle au %(contactPhone)s du lundi au vendredi, "
+"9h00-17:00 Heure de l'Est. S'il vous plaît noter que vous aurez besoin de"
+" votre numéro de commande: [2:%(orderNumber)s]. Des frais supplémentaires"
+" peuvent être nécessaires"
+
+#: templates/cds/directions_cds.html:73
+#: templates/cds/pre/directions_cds.html:73
+msgid "Additional information"
+msgstr "Informations additionnelles"
+
+#: templates/cds/directions_cds.html:76
+#: templates/cds/pre/directions_cds.html:76
+#, fuzzy, python-format
+msgid "Additional information about [1:%(name)s] is [2:avalaible on our website]."
+msgstr ""
+"D'autres renseignements concernant le spectacle %(event_name)s sont "
+"accessibles sur notre [1:site web]."
+
+#: templates/cds/directions_cds.html:83 templates/cds/eticket_cds.html:119
+#: templates/cds/pre/directions_cds.html:83
+#: templates/cds/pre/eticket_cds.html:122
+msgid "Customer support"
+msgstr "Service à la clientèle"
+
+#: templates/cds/directions_cds.html:86
+#: templates/cds/pre/directions_cds.html:86
+#, fuzzy, python-format
+msgid ""
+"If you have any questions or need any assistance in relation to your "
+"ticket purchase, please [1:write us] or call us at %(contactPhone)s. You "
+"can also consult our [2:help section]."
+msgstr ""
+"Si vous aves des questions ou avez besoin d'assistance en lien avec votre"
+" achat de billet, s'il vous plait [1:écrivez-nous] ou téléphonez-nous au "
+"%(contactPhone)s. Vous pouvez aussi\n"
+"            consulter notre [2:section d'aide]."
+
+#: templates/cds/directions_cds.html:93 templates/cds/eticket_cds.html:89
+#: templates/cds/order_cds.html:202 templates/cds/pre/directions_cds.html:93
+#: templates/cds/pre/eticket_cds.html:92 templates/cds/pre/order_cds.html:202
+msgid "Important !"
+msgstr "Important!"
+
+#: templates/cds/directions_cds.html:98 templates/cds/eticket_cds.html:94
+#: templates/cds/pre/directions_cds.html:98
+#: templates/cds/pre/eticket_cds.html:97
+msgid "This purchase is subject to our [1:Purchase agreement.]"
+msgstr "Cet achat est soumis à notre [1:Contrat d'achat]"
+
+#: templates/cds/directions_cds.html:103 templates/cds/eticket_cds.html:99
+#: templates/cds/order_cds.html:212 templates/cds/pre/directions_cds.html:103
+#: templates/cds/pre/eticket_cds.html:102 templates/cds/pre/order_cds.html:212
+msgid "All tickets sales are final. No refunds, exchanges or cancellations."
+msgstr ""
+"Toutes les ventes de billets sont finales. Aucun remboursements, échanges"
+" ou annulations."
+
+#: templates/cds/directions_cds.html:121 templates/cds/directions_cds.html:178
+#: templates/cds/directions_cds.html:205 templates/cds/directions_cds.html:232
+#: templates/cds/eticket_cds.html:138 templates/cds/pre/directions_cds.html:121
+#: templates/cds/pre/directions_cds.html:178
+#: templates/cds/pre/directions_cds.html:205
+#: templates/cds/pre/directions_cds.html:232
+#: templates/cds/pre/eticket_cds.html:141
+msgid "Join Cirque Club and be part of the magic. It's free !"
+msgstr "Joignez-vous au Club Cirque et faites partie de la magie. C'est gratuit!"
+
+#: templates/cds/directions_cds.html:124 templates/cds/directions_cds.html:208
+#: templates/cds/directions_cds.html:235 templates/cds/eticket_cds.html:141
+#: templates/cds/pre/directions_cds.html:124
+#: templates/cds/pre/directions_cds.html:208
+#: templates/cds/pre/directions_cds.html:235
+#: templates/cds/pre/eticket_cds.html:144
+msgid ""
+"Enjoy the benefits of being a Cirque Club member; privilegied access to "
+"pre-sales, exclusive members-only content and personalized promotions."
+msgstr ""
+"Bénéficiez des avantages d'être un membre Club Cirque; accès privilégié "
+"aux pré-ventes, du contenu pour membres exclusifs et de promotions sur "
+"mesure."
+
+#: templates/cds/directions_cds.html:134 templates/cds/directions_cds.html:190
+#: templates/cds/directions_cds.html:217 templates/cds/directions_cds.html:244
+#: templates/cds/eticket_cds.html:151 templates/cds/eticket_cds.html:182
+#: templates/cds/pre/directions_cds.html:134
+#: templates/cds/pre/directions_cds.html:190
+#: templates/cds/pre/directions_cds.html:217
+#: templates/cds/pre/directions_cds.html:244
+#: templates/cds/pre/eticket_cds.html:154
+#: templates/cds/pre/eticket_cds.html:185
+msgid "Join now"
+msgstr "Joignez-vous maintenant"
+
+#: templates/cds/directions_cds.html:149 templates/cds/eticket_cds.html:169
+#: templates/cds/pre/directions_cds.html:149
+#: templates/cds/pre/eticket_cds.html:172
+msgid "Make a difference, turn water into action"
+msgstr "Assurez une différence, transformer l'eau en action"
+
+#: templates/cds/directions_cds.html:152
+#: templates/cds/pre/directions_cds.html:152
+#, fuzzy
+msgid ""
+"[1:one drop] - a non-profit organization initatited by [2:Cirque du "
+"Soleil] founder Guy Laliberté - strives to ensure\n"
+"      that water is accessible to all. Using a one-of-a-kind   "
+"sustainable intervention model, [3:one drop] develops innovative water "
+"access projects whichi promote self-reliance in disadvantaged, rural and "
+"semi-rural regions of Latin America, West Africa and Asia"
+msgstr ""
+"[1:one drop] – un organisme sans but lucratif créé par Guy Laliberté, "
+"fondateur du [2:Cirque du Soleil] – agit pour que l’eau soit accessible à"
+" tous. \n"
+"  À l’aide d’un modèle d’intervention durable unique en son genre, [3:one"
+" drop] met en œuvre des projets novateurs pour améliorer l’accès à l’eau "
+"et pour promouvoir l’autonomie dans les régions rurales et semi-rurales "
+"défavorisées d’Amérique latine, d’Afrique de l’Ouest et d’Asie. "
+
+#: templates/cds/directions_cds.html:163
+#: templates/cds/pre/directions_cds.html:163
+#, fuzzy
+msgid "Support ONE DROP"
+msgstr "[1:Appuyez [2:one drop]]"
+
+#: templates/cds/directions_cds.html:180
+#: templates/cds/pre/directions_cds.html:180
+#, fuzzy
+msgid ""
+"[1:Enjoy the benefits of being a Cirque Club member; privilegied access "
+"to pre-sales, exclusive members-only content and personalized "
+"promotions.]"
+msgstr ""
+"Bénéficiez des avantages d'être un membre Club Cirque; accès privilégié "
+"aux pré-ventes, du contenu pour membres exclusifs et de promotions sur "
+"mesure."
+
+#: templates/cds/eticket_cds.html:9 templates/cds/pre/eticket_cds.html:12
+#, fuzzy, python-format
+msgid "Your tickets - %(order_number)s"
+msgstr "Vos billets électroniques  - %(order_number)s"
+
+#: templates/cds/eticket_cds.html:18 templates/cds/pre/eticket_cds.html:21
+msgid "Ticket"
+msgstr "Billet"
+
+#: templates/cds/eticket_cds.html:22 templates/cds/order_cds.html:31
+#: templates/cds/reset_cds.html:22 templates/cds/pre/eticket_cds.html:25
+#: templates/cds/pre/order_cds.html:31 templates/cds/pre/reset_cds.html:22
+#, fuzzy, python-format
+msgid "Hi [1:%(firstName)s],"
+msgstr "Bonjour [1:%(firstName)s],"
+
+#: templates/cds/eticket_cds.html:27 templates/cds/pre/eticket_cds.html:30
+#, fuzzy, python-format
+msgid ""
+"Thank you for buying tickets to [1:%(eventDetailsName)s].\n"
+"      You'll find your e-tickets [2:attached with this email.]"
+msgstr ""
+"Merci d'avoir acheté des billets pour [1:%(event_name)s]. Vous trouverez "
+"une copie de vos billets dans le présent courriel."
+
+#: templates/cds/eticket_cds.html:31 templates/cds/pre/eticket_cds.html:34
+#, fuzzy
+msgid ""
+"Please note that your electronic tickets [1:cannot be scanned directly on"
+" a mobile phone or other electronic devices.]"
+msgstr ""
+"Veuillez noter que vos billets électroniques ne peuvent pas être balayés "
+"directement sur un téléphone cellulaire ou un autre appareil "
+"électronique."
+
+#: templates/cds/eticket_cds.html:38 templates/cds/pre/eticket_cds.html:41
+msgid "Your tickets details"
+msgstr "Détail de votre (vos) billet(s)"
+
+#: templates/cds/eticket_cds.html:49 templates/cds/pre/eticket_cds.html:52
+#, fuzzy
+msgid "customer name :"
+msgstr "Nom du client : "
+
+#: templates/cds/eticket_cds.html:53 templates/cds/pre/eticket_cds.html:56
+#, fuzzy
+msgid "event name :"
+msgstr "Date de l'événement:"
+
+#: templates/cds/eticket_cds.html:56 templates/cds/pre/eticket_cds.html:59
+#, fuzzy
+msgid "event date :"
+msgstr "Date de l'événement:"
+
+#: templates/cds/eticket_cds.html:59 templates/cds/pre/eticket_cds.html:62
+#, fuzzy
+msgid "delivery method :"
+msgstr "Mode de livraison : "
+
+#: templates/cds/eticket_cds.html:70 templates/cds/pre/eticket_cds.html:73
+#, fuzzy
+msgid "open the pdf document that is attached"
+msgstr "Ouvrez le document en format PDF joint au présent courriel."
+
+#: templates/cds/eticket_cds.html:74 templates/cds/pre/eticket_cds.html:77
+#, fuzzy
+msgid "print the pdf document"
+msgstr ""
+"Imprimez le document en format PDF. Ce document tient lieu de billets et "
+"comprend les codes à barres nécessaires à la validation."
+
+#: templates/cds/eticket_cds.html:78 templates/cds/pre/eticket_cds.html:81
+#, fuzzy
+msgid "bring the printed tickets and present them at the venue"
+msgstr ""
+"Apportez les billets imprimés et présentez-les à l'entrée le soir de la "
+"représentation."
+
+#: templates/cds/eticket_cds.html:107 templates/cds/order_cds.html:221
+#: templates/cds/pre/eticket_cds.html:110 templates/cds/pre/order_cds.html:221
+#, fuzzy
+msgid "Additional informations"
+msgstr "Informations additionnelles"
+
+#: templates/cds/eticket_cds.html:110 templates/cds/pre/eticket_cds.html:113
+#, fuzzy, python-format
+msgid ""
+"Additional informations about %(eventDetailsName)s is [1:avalaible on our"
+" website]."
+msgstr ""
+"D'autres renseignements concernant le spectacle %(event_name)s sont "
+"accessibles sur notre [1:site web]."
+
+#: templates/cds/eticket_cds.html:122 templates/cds/pre/eticket_cds.html:125
+#, fuzzy, python-format
+msgid ""
+"If you have any questions or need any assistance in relation to your "
+"ticket purchase, please [1:write us] or call us at %(contactEmail)s. You "
+"can also\n"
+"      consult our [2:help section]."
+msgstr ""
+"Si vous aves des questions ou avez besoin d'assistance en lien avec votre"
+" achat de billet, s'il vous plait [1:écrivez-nous] ou téléphonez-nous au "
+"%(contactPhone)s. Vous pouvez aussi\n"
+"            consulter notre [2:section d'aide]."
+
+#: templates/cds/eticket_cds.html:172 templates/cds/pre/eticket_cds.html:175
+#, fuzzy
+msgid ""
+"[1:one drop] - a non-profit organization initatited by [2:Cirque du "
+"Soleil] founder Guy Laliberté - strives to ensure\n"
+"      that water is accessible to all. Using a one-of-a-kind sustainable "
+"intervention model, [3:one drop] develops innovative water access "
+"projects which promote self-reliance in disadvantaged, rural and semi-"
+"rural regions of Latin America, West Africa and Asia"
+msgstr ""
+"[1:one drop] – un organisme sans but lucratif créé par Guy Laliberté, "
+"fondateur du [2:Cirque du Soleil] – agit pour que l’eau soit accessible à"
+" tous. \n"
+"  À l’aide d’un modèle d’intervention durable unique en son genre, [3:one"
+" drop] met en œuvre des projets novateurs pour améliorer l’accès à l’eau "
+"et pour promouvoir l’autonomie dans les régions rurales et semi-rurales "
+"défavorisées d’Amérique latine, d’Afrique de l’Ouest et d’Asie. "
+
+#: templates/cds/order_cds.html:9 templates/cds/pre/order_cds.html:9
+#, fuzzy, python-format
+msgid "Your order confirmation - %(order_number)s"
+msgstr "Votre confirmation d'achat - %(order_number)s"
+
+#: templates/cds/order_cds.html:18 templates/cds/pre/order_cds.html:18
+#, fuzzy
+msgid "Order Confirmation"
+msgstr "Information"
+
+#: templates/cds/order_cds.html:36 templates/cds/pre/order_cds.html:36
+#, fuzzy, python-format
+msgid ""
+"Thank you for buying tickets to %(eventDetailsName)s. Please review the "
+"details of your purchase below."
+msgstr ""
+"Merci d'avoir acheté des billets pour [1:%(event_name)s]. Veuillez "
+"réviser les détails de votre commande ci-dessous."
+
+#: templates/cds/order_cds.html:39 templates/cds/pre/order_cds.html:39
+#, fuzzy
+msgid ""
+"Please note that you have chosen to receive e-tickets.\n"
+"              [1:\n"
+"                This means you will receive a second e-mail with your "
+"e-tickets attached. [2:]\n"
+"                Simply open the attachement, print the e-tickets and "
+"present them on the of your performance.\n"
+"              ]"
+msgstr ""
+"Vous avez choisi de commander vos billets en ligne. [1:Cela signifie que "
+"vous recevrez un deuxième courriel avec vos billets électroniques. Ouvrez"
+" simplement le document joint au courriel, imprimez les billets "
+"électroniques et présentez-les à la porte d'entrée le soir du spectacle.]"
+
+#: templates/cds/order_cds.html:46 templates/cds/pre/order_cds.html:46
+#, fuzzy, python-format
+msgid ""
+"If you have any questions or need any assistance in relation to your "
+"ticket purchase, please [1:write us] or call us at %(contactPhone)s"
+msgstr ""
+"Pour toute question ou pour obtenir de l’aide en relation avec votre "
+"achat de billet [1:contactez-nous] ou appelez-nous au %(phone_number)s."
+
+#: templates/cds/order_cds.html:48 templates/cds/pre/order_cds.html:48
+msgid "This email does not include your tickets"
+msgstr "Ce courriel n'inclut pas vos billets"
+
+#: templates/cds/order_cds.html:51 templates/cds/pre/order_cds.html:51
+#, fuzzy, python-format
+msgid "[1:Your delivery method : %(deliveryMethodWarn)s]"
+msgstr "[1:Méthode de livraison : %(deliveryMethod)s]"
+
+#: templates/cds/order_cds.html:64 templates/cds/pre/order_cds.html:64
+msgid "Attention !"
+msgstr "Attention !"
+
+#: templates/cds/order_cds.html:71 templates/cds/pre/order_cds.html:71
+#, fuzzy, python-format
+msgid "%(specialInfoEventType)s"
+msgstr "%(specialInfoEventTypeLang)s"
+
+#: templates/cds/order_cds.html:79 templates/cds/pre/order_cds.html:79
+#, python-format
+msgid "%(specialInfoPriceType)s"
+msgstr "%(specialInfoPriceType)s"
+
+#: templates/cds/order_cds.html:85 templates/cds/pre/order_cds.html:85
+#, python-format
+msgid "%(specialInfoSeries)s"
+msgstr "%(specialInfoSeries)s"
+
+#: templates/cds/order_cds.html:105 templates/cds/pre/order_cds.html:105
+msgid "Order Details"
+msgstr "Détails de la commande"
+
+#: templates/cds/order_cds.html:109 templates/cds/reservation_cds.html:52
+#: templates/cds/pre/order_cds.html:109
+#: templates/cds/pre/reservation_cds.html:52
+#, python-format
+msgid "Delivery Method : %(deliveryMethod)s"
+msgstr "Méthode de livraison : %(deliveryMethod)s"
+
+#: templates/cds/order_cds.html:112 templates/cds/reservation_cds.html:55
+#: templates/cds/pre/order_cds.html:112
+#: templates/cds/pre/reservation_cds.html:55
+#, python-format
+msgid "# Of Tickets : %(tickets)s"
+msgstr "Nombre de Billets : %(tickets)s"
+
+#: templates/cds/order_cds.html:114 templates/cds/reservation_cds.html:57
+#: templates/cds/pre/order_cds.html:114
+#: templates/cds/pre/reservation_cds.html:57
+#, python-format
+msgid "# Of Wristbands : %(wristbands)s"
+msgstr "Nombre de Bracelets : %(wristbands)s"
+
+#: templates/cds/order_cds.html:118 templates/cds/pre/order_cds.html:118
+msgid "Billing details"
+msgstr "Informations sur le paiement"
+
+#: templates/cds/order_cds.html:123 templates/cds/order_cds.html:127
+#: templates/cds/pre/order_cds.html:123 templates/cds/pre/order_cds.html:127
+#, python-format
+msgid "Payment Amount : $ %(paymentAmount)s"
+msgstr "Montant du Paiement: %(paymentAmount)s"
+
+#: templates/cds/order_cds.html:124 templates/cds/order_cds.html:128
+#: templates/cds/pre/order_cds.html:124 templates/cds/pre/order_cds.html:128
+#, python-format
+msgid "Payment Method : %(paymentMethod)s"
+msgstr "Méthode de paiement: %(paymentMethod)s"
+
+#: templates/cds/order_cds.html:129 templates/cds/pre/order_cds.html:129
+#, python-format
+msgid "Credit Card : %(maskedCard)s"
+msgstr "Carte de Crédit : %(maskedCard)s"
+
+#: templates/cds/order_cds.html:130 templates/cds/pre/order_cds.html:130
+#, fuzzy, python-format
+msgid "Credit Card Holder : %(holderName)s"
+msgstr "Détenteur de la carte de crédit :  "
+
+#: templates/cds/order_cds.html:140 templates/cds/reservation_cds.html:43
+#: templates/cds/pre/order_cds.html:140
+#: templates/cds/pre/reservation_cds.html:43
+msgid "Your receipt details"
+msgstr "Détails du Reçu"
+
+#: templates/cds/order_cds.html:151 templates/cds/pre/order_cds.html:151
+msgid "Item"
+msgstr "Objet"
+
+#: templates/cds/order_cds.html:152 templates/cds/pre/order_cds.html:152
+msgid "Qty"
+msgstr "Qté"
+
+#: templates/cds/order_cds.html:153 templates/cds/pre/order_cds.html:153
+msgid "Price"
+msgstr "Prix"
+
+#: templates/cds/order_cds.html:154 templates/cds/pre/order_cds.html:154
+msgid "Total"
+msgstr "Total"
+
+#: templates/cds/order_cds.html:188 templates/cds/pre/order_cds.html:188
+#, python-format
+msgid "Total %(grandTotal)s"
+msgstr "Total : %(grandTotal)s"
+
+#: templates/cds/order_cds.html:207 templates/cds/pre/order_cds.html:207
+#, fuzzy
+msgid "This purchase is subject to our"
+msgstr "Cet achat est soumis à notre [1:Contrat d'achat]"
+
+#: templates/cds/order_cds.html:208 templates/cds/pre/order_cds.html:208
+msgid "Purchase agreement."
+msgstr "Contrat D'Achat"
+
+#: templates/cds/order_cds.html:224 templates/cds/pre/order_cds.html:224
+#, fuzzy, python-format
+msgid ""
+"Additional informations about [1:%(eventDetailsName)s] is [2:avalaible on"
+" our website]."
+msgstr ""
+"D'autres renseignements concernant le spectacle %(event_name)s sont "
+"accessibles sur notre [1:site web]."
+
+#: templates/cds/payment_invitation_cds.html:11
+#: templates/cds/pre/payment_invitation_cds.html:11
+#, fuzzy, python-format
+msgid "Your payment invitation - %(order_number)s"
+msgstr "Votre rappel de paiement - %(order_number)s"
+
+#: templates/cds/payment_invitation_cds.html:22
+#: templates/cds/pre/payment_invitation_cds.html:22
+msgid "Paiement invitation"
+msgstr "Invitation pour votre paiement"
+
+#: templates/cds/payment_invitation_cds.html:28
+#: templates/cds/pre/payment_invitation_cds.html:28
+#, fuzzy, python-format
+msgid ""
+"Hi [1: %(firstName)s][2:]\n"
+"            [3:]\n"
+"            [4:Thanks for booking your tickets for %(eventDetails)s. "
+"Please verify your order details below. Your e-ticket will be registered "
+"at your name until the moment you'll pay for.][5:]\n"
+"            [6:]\n"
+"            [7:If you don't pay for these tickets, the reservation will "
+"be cancelled. [8:][9:] Please [10:visit this link] and proceed to the "
+"payment.] [11:]\n"
+"            [12:]\n"
+"            [13:You have until DATE on TIME to complete the transaction "
+"by making a payment.]\n"
+"            [14:]\n"
+"            [15:More information can be obtained via [16:email] or call "
+"at %(contactPhone)s]\n"
+"            [17:]"
+msgstr ""
+"Bonjour [1: %(firstName)s][2:]\n"
+"            [3:]\n"
+"            [4:Merci d'avoir réservé votre (vos) billet(s) pour "
+"%(eventDetails)s. Veuillez vérifier les détails de votre réservation ci-"
+"dessous. Votre (vos) billet(s) sera (seront) enregistré(s) sous votre nom"
+" jusqu'à que vous le(s) payiez.][5:]\n"
+"            [6:]\n"
+"            [7:Si vous ne payez pas pour ce(s) billet(s), la réservation "
+"sera annulée. [8:][9:] Please [10:Log into your account] and proceed to "
+"the payment.]\n"
+"            [11:]\n"
+"            [12:You have until DATE on TIME to complete the transaction "
+"by making a payment.]\n"
+"            [13:]\n"
+"            [14:More information can be obtained via [15:email] or call "
+"at %(contactPhone)s]\n"
+"            [16:]"
+
+#: templates/cds/payment_reminder_cds.html:11
+#: templates/cds/pre/payment_reminder_cds.html:11
+#, fuzzy, python-format
+msgid "Your paiement reminder - %(order_number)s"
+msgstr "Votre rappel de paiement - %(order_number)s"
+
+#: templates/cds/payment_reminder_cds.html:21
+#: templates/cds/pre/payment_reminder_cds.html:21
+msgid "Paiement reminder"
+msgstr "Rappel de paiement"
+
+#: templates/cds/payment_reminder_cds.html:36
+#: templates/cds/pre/payment_reminder_cds.html:36
+#, python-format
+msgid ""
+"Hi [1: %(firstName)s][2:]\n"
+"            [3:]\n"
+"            [4:This is a reminder that your reservation will expire soon."
+" Please review the details of your reservation below.\n"
+"        Your tickets will be in a courtesy reservation status under your "
+"name until you purchase the tickets.][5:]\n"
+"            [6:If you don't pay for these tickets, the reservation will "
+"be cancelled. [7:] [8:]Please [9:visit this link] and proceed to the "
+"payment.][10:][11:]\n"
+"            [12:More information can be obtained via [13:email] or call "
+"at %(eventDetails)s][14:]"
+msgstr ""
+"Bonjour [1: %(firstName)s][2:]\n"
+"            [3:]\n"
+"            [4:Ceci est un rappel au sujet de votre réservation qui "
+"expirera sous peu. Veuillez vérifier les détails de cette réservation ci-"
+"dessous.\n"
+"        Le(s) billet(s) seront placé en réservation sous votre nom "
+"jusqu'au moment de l'achat  .][5:]\n"
+"            [6:Si vous ne payez pas pour ce(s) billet(s), il(s) sera "
+"(seront) annulé(s). [7:] [8:]Veuillez [9:cliquer sur ce lien] et procéder"
+" au paiement.][10:][11:]\n"
+"            [12:Plus d'informations peuvenet être obtenues via [13:email]"
+" or en appellant au %(eventDetails)s][14:]"
+
+#: templates/cds/reservation_cds.html:11
+#: templates/cds/pre/reservation_cds.html:11
+#, fuzzy, python-format
+msgid "Your reservation - %(order_number)s"
+msgstr "Votre confirmation d'achat - %(order_number)s"
+
+#: templates/cds/reservation_cds.html:33
+#: templates/cds/pre/reservation_cds.html:33
+#, python-format
+msgid ""
+"Hi [1: %(firstName)s][2:]\n"
+"            [3:]\n"
+"            [4:Thanks for booking your tickets for %(eventDetails)s. "
+"Please verify your order details below. Your e-ticket will be registered "
+"at your name until the moment you'll pay for.][5:]\n"
+"            [6:]\n"
+"            [7:More information can be obtained via [8:email] or call at "
+"%(contactPhone)s]"
+msgstr ""
+"Bonjour [1: %(firstName)s][2:]\n"
+"            [3:]\n"
+"            [4:Merci d'avoir réservé votre (vos) billet(s) pour "
+"%(eventDetails)s.Veuillez vérifier les détails de cette réservation ci-"
+"dessous.\n"
+"        Le(s) billet(s) seront placé en réservation sous votre nom "
+"jusqu'au moment de l'achat  .][5:]\n"
+"            [6:]\n"
+"            [7:Plus d'informations peuvenet être obtenues via [13:email] "
+"or en appellant au %(eventDetails)s]"
+
+#: templates/cds/reset_cds.html:9 templates/cds/reset_cds.html:18
+#: templates/cds/pre/reset_cds.html:9 templates/cds/pre/reset_cds.html:18
+#, fuzzy
+msgid "Reset password"
+msgstr "Réinitialisation du mot de passe"
+
+#: templates/cds/reset_cds.html:27 templates/cds/pre/reset_cds.html:27
+#, fuzzy
+msgid "[1:Please click below to reset your password.]"
+msgstr "Veuillez [1:cliquer ici] pour réinitialiser votre mot de passe."
+
+#: templates/cds/reset_cds.html:35 templates/cds/pre/reset_cds.html:35
+#, fuzzy
+msgid "Reset my password"
+msgstr "Réinitialisation du mot de passe"
+
+#: templates/cds/pre/cancellation_cds.html:10
+#: templates/cds/pre/directions_cds.html:10
+#: templates/cds/pre/eticket_cds.html:13 templates/cds/pre/order_cds.html:10
+#: templates/cds/pre/payment_invitation_cds.html:10
+#: templates/cds/pre/payment_reminder_cds.html:10
+#: templates/cds/pre/reservation_cds.html:10
+#: templates/cds/pre/reset_cds.html:10
+msgid "../styles/main.css"
+msgstr ""
+
+#: templates/cds/pre/includes/footer_cds.html:3
+#: templates/cds/pre/includes/ticket_cds.html:3
+#: templates/cds/pre/includes/venue_cds.html:3
+msgid "../../styles/main.css"
+msgstr ""
+
+#: templates/cds/pre/includes/footer_cds.html:26
+#, fuzzy
+msgid "© Cirque du Soleil Inc. 2016"
+msgstr "© Cirque du Soleil Inc. 2016"
+
+#: templates/cds/pre/includes/ticket_cds.html:8
+#, fuzzy
+msgid "Your Ticket Information"
+msgstr "Informations additionnelles"
+
+#: templates/cds/pre/includes/ticket_cds.html:18
+#, fuzzy, python-format
+msgid "%(name)s"
+msgstr "%(nameEvent)s"
+
+#: templates/cds/pre/includes/ticket_cds.html:23
+#, fuzzy, python-format
+msgid "%(date)s"
+msgstr "%(dateEvent)s"
+
+#: templates/cds/pre/includes/ticket_cds.html:34
+#, fuzzy
+msgid "Section"
+msgstr "Lieu: "
+
+#: templates/cds/pre/includes/ticket_cds.html:35
+msgid "Row"
+msgstr "Rangée"
+
+#: templates/cds/pre/includes/ticket_cds.html:36
+#, fuzzy
+msgid "Seats"
+msgstr "Sièges: "
+
+#: templates/cds/pre/includes/ticket_cds.html:50
+#, python-format
+msgid "%(seatName)s : %(seatMsg)s"
+msgstr "%(seatName)s : %(seatMsg)s"
+
+#: templates/cds/pre/includes/venue_cds.html:8
+#, fuzzy
+msgid "Venue information"
+msgstr "Information"
+
+#~ msgid "Order #:"
+#~ msgstr "Numéro de commande : "
+
+#~ msgid "Order date:"
+#~ msgstr "Date de commande : "
+
+#~ msgid "Customer #:"
+#~ msgstr "Numéro de client : "
+
+#~ msgid "Number of tickets remaining:"
+#~ msgstr "Nombre de billets restant : "
+
+#~ msgid "Total paid:"
+#~ msgstr "Montant de la commande :"
+
+#~ msgid "Total refunded:"
+#~ msgstr "Remboursement total :"
+
+#~ msgid "%(event_title)s - %(event_date)s"
+#~ msgstr "%(event_title)s - %(event_date)s"
+
+#~ msgid "%(event_title)s - %(event_date)s at %(event_time)s"
+#~ msgstr "%(event_title)s - %(event_date)s à %(event_time)s"
+
+#~ msgid "(Tax Included)"
+#~ msgstr "(Taxes incluses)"
+
+#~ msgid "(VAT Included)"
+#~ msgstr "(TVA incluse)"
+
+#~ msgid "(GST Included)"
+#~ msgstr "(TPS incluse)"
+
+#~ msgid "(Not Taxable)"
+#~ msgstr "(Non taxable)"
+
+#~ msgid "Total Cost:"
+#~ msgstr "Coût total:"
+
+#~ msgid "Sales tax included:"
+#~ msgstr "Taxe de vente incluse :"
+
+#~ msgid "Tax Summary:"
+#~ msgstr "Total des taxes applicables : "
+
+#~ msgid "Total Without Taxes:"
+#~ msgstr "Total hors taxes:"
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "How to print your tickets:"
+#~ msgstr "Comment imprimer vos billets :"
+
+#~ msgid "https://www.adobe.com/products/acrobat/readstep2.html"
+#~ msgstr "https://www.adobe.com/products/acrobat/readstep2.html"
+
+#~ msgid "%(city)s, %(state)s"
+#~ msgstr "%(city)s, %(state)s"
+
+#~ msgid "%(event_description)s - %(event_date)s"
+#~ msgstr "%(event_description)s - %(event_date)s"
+
+#~ msgid "%(event_description)s - %(event_date)s at %(event_time)s"
+#~ msgstr "%(event_description)s - %(event_date)s à %(event_time)s"
+
+#~ msgid "Venue:"
+#~ msgstr "Site : "
+
+#~ msgid "Your reissued seats:"
+#~ msgstr "Vos sièges réémis: "
+
+#~ msgid "General Admission"
+#~ msgstr "Aucune place assignée"
+
+#~ msgid ", Door:"
+#~ msgstr ", Porte:"
+
+#~ msgid "Section %(section)s, Row %(row)s, Seat %(seat)s"
+#~ msgstr "Section %(section)s, rangée %(row)s, siège %(seat)s"
+
+#~ msgid "Your cancelled seats:"
+#~ msgstr "Vos sièges annulés: "
+
+#~ msgid "Number of tickets:"
+#~ msgstr "Nombre de billets : "
+
+#~ msgid "Total planned payments:"
+#~ msgstr "Total des paiements planifiés:"
+
+#~ msgid "Payment amount:"
+#~ msgstr "Montant du paiement : "
+
+#~ msgid "Payment method:"
+#~ msgstr "Mode de paiement : "
+
+#~ msgid "Account #:"
+#~ msgstr "Numéro de compte : "
+
+#~ msgid "xxxx-xxxx-xxxx-"
+#~ msgstr "xxxx-xxxx-xxxx-"
+
+#~ msgid "Date planned:"
+#~ msgstr "Date prévue :"
+
+#~ msgid "Check #:"
+#~ msgstr "Numéro du chèque :"
+
+#~ msgid "No deposits made."
+#~ msgstr "Aucun dépôt effectué."
+
+#~ msgid "Payment method"
+#~ msgstr "Mode de paiement : "
+
+#~ msgid "Date processed:"
+#~ msgstr "Date du remboursement :"
+
+#~ msgid "Date refunded:"
+#~ msgstr "Date du remboursement :"
+
+#~ msgid "Refund amount:"
+#~ msgstr "Remboursement total :"
+
+#~ msgid "Method of refund:"
+#~ msgstr "Mode de remboursement :"
+
+#~ msgid "Account number:"
+#~ msgstr "Numéro de compte : "
+
+#~ msgid "Card holder name:"
+#~ msgstr "Détenteur de la carte de crédit : "
+
+#~ msgid "If your refund is by cheque, you will receive it at the address below."
+#~ msgstr "Tout remboursement par chèque vous sera envoyé à l’adresse ci-dessous."
+
+#~ msgid "Address:"
+#~ msgstr "Adresse :"
+
+#~ msgid "No refund made."
+#~ msgstr "Aucun remboursement effectué."
+
+#~ msgid "[1:%(event_title)s]"
+#~ msgstr "[1:%(event_title)s]"
+
+#~ msgid "[1:%(event_title)s] - %(event_date)s"
+#~ msgstr "[1:%(event_title)s] - %(event_date)s"
+
+#~ msgid "[1:%(event_title)s] - %(event_date)s at %(event_time)s"
+#~ msgstr "[1:%(event_title)s] - %(event_date)s à %(event_time)s"
+
+#~ msgid "Section %(section)s, Row %(row)s, Seat(s) %(seat)s"
+#~ msgstr "Section %(section)s, rangée %(row)s, siège %(seat)s"
+
+#~ msgid "Nominal Price:"
+#~ msgstr "Prix Nominal:"
+
+#~ msgid "Resale Price:"
+#~ msgstr "Prix de revente:"
+
+#~ msgid "Reservation date:"
+#~ msgstr "Date de réservation:"
+
+#~ msgid "Your Confirmation of Cancellation - %(order_number)s"
+#~ msgstr "Votre confirmation d'annulation - %(order_number)s"
+
+#~ msgid "This confirms your cancellation of tickets to %(event_name)s."
+#~ msgstr ""
+
+#~ msgid "Please review the details below."
+#~ msgstr "Veuillez réviser les informations ci-dessous."
+
+#~ msgid "Directions for %(order_number)s"
+#~ msgstr "Directions pour - %(order_number)s"
+
+#~ msgid "You will soon be seeing [1:%(event_name)s]."
+#~ msgstr "Vous allez bientôt voir [1:%(event_name)s]."
+
+#~ msgid "You will find below DIRECTIONS to the Cirque du Soleil Grand Chapiteau"
+#~ msgstr ""
+
+#~ msgid "http://itunes.com/LUZIA"
+#~ msgstr ""
+
+#~ msgid "[1:Download it now]"
+#~ msgstr "[1:Téléchargez-la maintenant]"
+
+#~ msgid "during regular box office hours."
+#~ msgstr "lors des heures d'ouverture de la billeterie."
+
+#~ msgid "[1:Last Minute Offers]"
+#~ msgstr "[1:Offres de dernière minute]"
+
+#~ msgid "www.cirquedusoleil.com/kurios/set-up-upgrade"
+#~ msgstr "www.cirquedusoleil.com/kurios/set-up-upgrade"
+
+#~ msgid "Reservation confirmation - %(order_number)s"
+#~ msgstr "Confirmation de réservation - %(order_number)s"
+
+#~ msgid "venue_logo"
+#~ msgstr "venue_logo"
+
+#~ msgid "img"
+#~ msgstr "img"
+
+#~ msgid "cirque du soleil logo"
+#~ msgstr "© Cirque du Soleil Inc. 2016"
+
+#~ msgid "Sponsor Logo"
+#~ msgstr "Sponsor Logo"
+
+#~ msgid "Additional information:"
+#~ msgstr "Renseignements supplémentaires :"
+
+#~ msgid "http://www.cirquedusoleil.com/en/help/shows.aspx"
+#~ msgstr "http://www.cirquedusoleil.com/fr/help/shows.aspx"
+
+#~ msgid "http://www.cds.ru/faq/"
+#~ msgstr "http://www.cds.ru/faq/"
+
+#~ msgid "http://cirk.me/1QJI9Hv"
+#~ msgstr "http://cirk.me/1QJHq9g"
+
+#~ msgid "(Taxes Included)"
+#~ msgstr "(Taxes incluses)"
+
+#~ msgid "Sales Tax"
+#~ msgstr "Taxe de vente"
+
+#~ msgid "http://www.cds-show.ru/joel/tickets/map/87"
+#~ msgstr "http://www.cds-show.ru/joel/tickets/map/87"
+
+#~ msgid "http://www.cds-show.ru/varekai/tickets/map/72"
+#~ msgstr "http://www.cds-show.ru/varekai/tickets/map/72"
+
+#~ msgid "See you soon at the show!"
+#~ msgstr "À bientôt!"
+
+#~ msgid "http://www.cds-show.ru/varekai/tickets/map/69"
+#~ msgstr "http://www.cds-show.ru/varekai/tickets/map/69"
+
+#~ msgid "http://www.cds-show.ru/varekai/tickets/map/67"
+#~ msgstr "http://www.cds-show.ru/varekai/tickets/map/67"
+
+#~ msgid "http://www.cds-show.ru/varekai/tickets/map/71"
+#~ msgstr "http://www.cds-show.ru/varekai/tickets/map/71"
+
+#~ msgid "http://www.cds-show.ru/varekai/tickets/map/68"
+#~ msgstr "http://www.cds-show.ru/varekai/tickets/map/68"
+
+#~ msgid "http://www.cds-show.ru/varekai/tickets/map/70"
+#~ msgstr "http://www.cds-show.ru/varekai/tickets/map/70"
+
+#~ msgid "TM & © of Cirque du Soleil - used under license"
+#~ msgstr "MC & © du Cirque du Soleil - employés sous licence"
+
+#~ msgid "© Cirque du Soleil Inc. %(year)s[1:]"
+#~ msgstr "© Cirque du Soleil Inc. %(year)s[1:]"
+
+#~ msgid "http://tinyurl.com/h6n63qa"
+#~ msgstr "http://tinyurl.com/h6n63qa"
+
+#~ msgid "Click here to learn more"
+#~ msgstr "Appuyez ici pour en savoir plus"
+
+#~ msgid "MAKE A DIFFERENCE, TURN WATER INTO ACTION"
+#~ msgstr "CHANGER LES CHOSES : TRANSFORMER L'EAU EN ACTION"
+
+#~ msgid "http://www.onedrop.org/"
+#~ msgstr "http://www.onedrop.org/"
+
+#~ msgid "Support ONE DROP by visiting [1:ONEDROP.org]."
+#~ msgstr "Appuyez ONE DROP en visitant le site [1:ONEDROP.org]."
+
+#~ msgid "http://www.starwoodhotels.com/preferredguest/index.html?EM=Cirq_CF_EM"
+#~ msgstr "http://www.starwoodhotels.com/preferredguest/index.html?EM=Cirq_CF_EM"
+
+#~ msgid "Gift Card Order #:"
+#~ msgstr "Numéro de la commande avec Carte Cadeau :"
+
+#~ msgid "What is an e-ticket?"
+#~ msgstr "Le billet électronique"
+
+#~ msgid "http://www.starwoodhotels.com/CirqueduSoleil"
+#~ msgstr "http://www.starwoodhotels.com/CirqueduSoleil"
+
+#~ msgid "http://www.fairmont.com/EN_FA/Reservations/ReservationAvailability?hc=SVY&pc=PCQB"
+#~ msgstr "http://www.fairmont.com/FR_FA/Reservations/ReservationAvailability?hc=SVY&pc=PCQB"
+
+#~ msgid "Bonjour %(customer_first_name)s,"
+#~ msgstr "Bonjour %(customer_first_name)s,"
+
+#~ msgid "© Cirque du soleil Inc. 2016"
+#~ msgstr "© Cirque du Soleil Inc. 2016"
+
+#~ msgid "See your mobile ticket"
+#~ msgstr "Voir votre billet mobile"
+
+#~ msgid "If you don't pay for these tickets, the reservation will be cancelled."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Hi [1: %(firstName)s][2:]\n"
+#~ "            [3:]\n"
+#~ "            [4:Thanks for booking your "
+#~ "tickets for %(eventDetails)s. Please verify"
+#~ " your order details below. Your "
+#~ "e-ticket will be registered at your "
+#~ "name until the moment you'll pay "
+#~ "for.][5:]\n"
+#~ "            [6:]\n"
+#~ "            [7:If you don't pay for "
+#~ "these tickets, the reservation will be"
+#~ " cancelled. [8:][9:] Please [10:Log into"
+#~ " your account] and proceed to the "
+#~ "payment.]\n"
+#~ "            [11:]\n"
+#~ "            [12:You have until DATE on"
+#~ " TIME to complete the transaction by"
+#~ " making a payment.]\n"
+#~ "            [13:]\n"
+#~ "            [14:More information can be "
+#~ "obtained via [15:email] or call at "
+#~ "%(contactPhone)s]\n"
+#~ "            [16:]"
+#~ msgstr ""
+#~ "Bonjour [1: %(firstName)s][2:]\n"
+#~ "            [3:]\n"
+#~ "            [4:Merci d'avoir réservé votre "
+#~ "(vos) billet(s) pour %(eventDetails)s. "
+#~ "Veuillez vérifier les détails de votre"
+#~ " réservation ci-dessous. Votre (vos) "
+#~ "billet(s) sera (seront) enregistré(s) sous "
+#~ "votre nom jusqu'à que vous le(s) "
+#~ "payiez.][5:]\n"
+#~ "            [6:]\n"
+#~ "            [7:Si vous ne payez pas "
+#~ "pour ce(s) billet(s), la réservation "
+#~ "sera annulée. [8:][9:] Please [10:Log "
+#~ "into your account] and proceed to "
+#~ "the payment.]\n"
+#~ "            [11:]\n"
+#~ "            [12:You have until DATE on"
+#~ " TIME to complete the transaction by"
+#~ " making a payment.]\n"
+#~ "            [13:]\n"
+#~ "            [14:More information can be "
+#~ "obtained via [15:email] or call at "
+#~ "%(contactPhone)s]\n"
+#~ "            [16:]"
+
+#~ msgid "venue_location_map"
+#~ msgstr ""
