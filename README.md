@@ -9,6 +9,7 @@ A Quizz is subdivided in multiple question which can be one of the three flavour
 * A Multiple ( or Single ) choice quesiton
 * A Fill-in-the-blank question
 
+This is a C# backend powered by a lot of Object Oriented JS
 This project never really went in " production " and was always meant to be a showcase of what we were capable to do, as a team.
 
 ## Implemented features
