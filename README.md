@@ -22,3 +22,7 @@ This project never really went in " production " and was always meant to be a sh
 - Edit / Remove a question
 - Draft / Publish mode
 - Reports and data for further analysis ( progression curve, average of student / classroom / professor )
+
+## Contributor
+
+This project represent the work of me & Omar Bouach 
